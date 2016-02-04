@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/background_pattern"
+    tools:context="com.example.ourstars.AddFilters" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="125dp"
+        android:layout_width="250dp"        
+        android:layout_marginTop="2dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Select Country:"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:text="Select Language:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+        <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:text="Select Genre Category:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+        <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spinner3"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:text="Select Genre SubCategory:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+        
+        <ImageButton
+        android:id="@+id/imageButton1"
+        android:scaleType="fitXY"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/my_button"
+        android:src="@drawable/done" />
+        
+        <ImageButton
+        android:id="@+id/imageButton2"
+        android:scaleType="fitXY"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/my_button"
+        android:src="@drawable/cancel" />
+    
+</RelativeLayout>

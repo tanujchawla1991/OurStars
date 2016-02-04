@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pattern"
+    tools:context="com.example.ourstarsadmin.SettingsPage" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp"
+        android:layout_width="350dp"        
+        android:layout_marginTop="5dp"
+        android:src="@drawable/logo" />
+    
+    <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_centerHorizontal="true"
+                    android:text="ADMIN CONTROL PANEL"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:scaleType="fitXY"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:background="@drawable/my_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/start" />
+    
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:scaleType="fitXY"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:background="@drawable/my_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageButton1"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/stop" />
+
+</RelativeLayout>
